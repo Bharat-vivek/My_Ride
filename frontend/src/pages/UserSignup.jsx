@@ -25,8 +25,8 @@ const UserSignup = () => {
         e.preventDefault()
         const newUser = {
             fullname: {
-                firstname: firstName,
-                lastname: lastName
+                firstName: firstName,
+                lastName: lastName
             },
             email: email,
             password: password
