@@ -1,4 +1,4 @@
-# Uber Clone Project
+# My-Ride Project
 
 This repository contains a full-stack Uber clone application, featuring a **React + Vite frontend** and a **Node.js + Express backend**. The project demonstrates user authentication, ride booking, real-time updates, and more.
 
