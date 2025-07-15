@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import axios from 'axios'
-import { UserDataContext } from '../context/UserContext.jsx'
+import { UserDataContext } from '../context/UserContext'
 
 
 
@@ -38,7 +38,7 @@ const UserSignup = () => {
             const data = response.data
             setUser(data.user)
             localStorage.setItem('token', data.token)
-            navigate('/')
+            navigate('/home')
         }
 
 
